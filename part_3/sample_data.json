@@ -1,0 +1,59 @@
+[
+    {
+        "companyName": "FinTechSecure Ltd.",
+        "zeroTrustScore": 58.5,
+        "metrics": {
+            "metric1": 12,
+            "metric2": 55.2,
+            "metric3": 34
+        },
+        "observableData": {
+            "averageShannonEntropyScore": 7.8,
+            "firewallDetected": true,
+            "DNSsecEnabled": true,
+            "tlsVersion": "1.2",
+            "certificateBitStrength": 2048,
+            "securityHeadersImplemented": ["X-XSS-Protection", "X-Frame-Options"],
+            "openPortsDetected": 12
+        },
+        "riskCategory": "Moderate Risk"
+    },
+    {
+        "companyName": "Safe Ltd.",
+        "zeroTrustScore": 58.5,
+        "metrics": {
+            "metric1": 12,
+            "metric2": 55.2,
+            "metric3": 40
+        },
+        "observableData": {   
+            "firewallDetected": true,
+            "DNSsecEnabled": true,
+            "averageShannonEntropyScore": 7.8,
+            "tlsVersion": "1.2",
+            "certificateBitStrength": 23,
+            "securityHeadersImplemented": ["X-XSS-Protection", "X-Frame-Options"],
+            "openPortsDetected": 2
+        },
+        "riskCategory": "Low Risk"
+    },
+{
+        "companyName": "Unsafe Corp.",
+        "zeroTrustScore": 88.5,
+        "metrics": {
+            "metric1": 12,
+            "metric2": 55.2,
+            "metric3": 40
+        },
+        "observableData": {   
+            "firewallDetected": true,
+            "DNSsecEnabled": true,
+            "averageShannonEntropyScore": 7.8,
+            "tlsVersion": "1.2",
+            "certificateBitStrength": 23,
+            "securityHeadersImplemented": ["X-XSS-Protection", "X-Frame-Options"],
+            "openPortsDetected": 2
+        },
+        "riskCategory": "High Risk"
+    }
+]
